@@ -40,4 +40,25 @@ def outer_func(x):
 add_five = outer_func(5)
 print(add_five(3))
 
+"""
+Output 
+Decorators
+Something is happening before the function is called. 
+Hello!
+Something is happening after the function is called. 
+Iterators
+1
+2
+3
+4
+5
+Generators
+5
+4
+3
+2
+1
+Closures
+8
+"""
           
