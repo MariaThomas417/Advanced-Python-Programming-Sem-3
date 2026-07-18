@@ -107,3 +107,35 @@ library.return_book(1, 101)
 
 library.display_books()
 library.display_patrons()
+
+"""
+Output
+Book 'Python Programming' added successfully.
+Book 'Data Structures' added successfully.
+Book 'Machine Learning' added successfully.
+Patron 'Alice' registered successfully.
+Patron 'Bob' registered successfully.
+Alice borrowed 'Python Programming'.
+Bob borrowed 'Data Structures'.
+Alice returned 'Python Programming'.
+
+Library Books
+ID:  101
+Title:  Python Programming
+Author:  John Smith
+Status:  Available
+ID:  102
+Title:  Data Structures
+Author:  Jane Doe
+Status:  Borrowed
+ID:  103
+Title:  Machine Learning
+Author:  Andrew Ng
+Status:  Available
+
+Registered Patrons
+Patron ID:  1
+Name:  Alice
+Patron ID:  2
+Name:  Bob
+"""
