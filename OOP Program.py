@@ -13,3 +13,9 @@ class Employee:
 e1 = Employee(201, "John", 45000)
 e1.display()
 
+"""
+Output
+Employee ID: 201
+Name: John
+Salary: 45000
+"""
